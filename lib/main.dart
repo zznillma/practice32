@@ -139,6 +139,12 @@ class Practice extends StatelessWidget {
         width: 79,
         child: FloatingActionButton(
           onPressed: () {},
+          shape:  RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(40),
+              side: const BorderSide(
+            color: Colors.black,
+            width: 1,
+          )),
           backgroundColor: Colors.red,
           child: const Icon(
             Icons.favorite_border_outlined,
